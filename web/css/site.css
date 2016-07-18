@@ -3,9 +3,17 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url(https://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic-ext);
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Forum', cursive;
+    font-size: 16px;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+    color: #333;
+    text-decoration: none;
 }
 
 .slide-image {
@@ -51,4 +59,16 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+/* My css */
+
+#accordion a:hover {
+    color: #d17581;
+}
+
+.dcjq-parent-li>ul>li{
+    padding: 5px;
+    border: 0.5px solid white;
+    background: #fbfbfb;
 }
