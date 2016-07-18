@@ -29,17 +29,12 @@ a, a:hover, a:active, a:focus, a:visited {
     border-radius: 4px;
 }
 
-.caption {
-    height: 130px;
-    overflow: hidden;
-}
-
 .caption h4 {
-    white-space: nowrap;
 }
 
 .thumbnail img {
-    width: 100%;
+    width: 268px;
+    height: 249px;
 }
 
 .ratings {
@@ -55,6 +50,11 @@ a, a:hover, a:active, a:focus, a:visited {
 .thumbnail .caption-full {
     padding: 9px;
     color: #333;
+}
+
+.caption {
+    height: 250px;
+    overflow: hidden;
 }
 
 footer {
